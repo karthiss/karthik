@@ -6,10 +6,9 @@ int main()
     scanf("%d\n", &a);
 if(a%4 == 0)
 
-        printf("this year is leap year\n");
-    
+        printf("Yes\n"); 
     else
-        printf("this year is not leap year\n");
+        printf("No\n");
 
 return 0;
 }
