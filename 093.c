@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int a;
+int i;
 printf("Enter the Temperature in Celsius : ");
-scanf("%d",&a);
+scanf("%d",&i);
 printf("The Temperature in Kelvin  = %d K\n", a+273);
 return 0;
 }
