@@ -2,16 +2,16 @@
 int main()
 {
 char ch;
-int a,b,*c;
+int i,b,*c;
 printf("Enter The Number : ");
-scanf("%d",&a);
-if(a==1)
+scanf("%d",&i);
+if(i==1)
 {
 b=65;
 printf("%d", b);
 }
-else if (a!=1)
-b= a+64;
+else if (i!=1)
+b= i+64;
 c= &b;
 ch= *c;
 if(*c<=90)
