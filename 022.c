@@ -3,7 +3,7 @@
 int main()
 {
  
-        int array[50], size, i, largest;
+        int array[50], size, i, max;
  
         printf("\n Enter the size of the array: ");
 	scanf("%d", &size);
@@ -13,15 +13,15 @@ int main()
         for (i = 0; i < size; i++)
 		scanf("%d", &array[i]);
  
-        largest = array[0];
+        max = array[0];
  
         for (i = 1; i < size; i++) 
         {
-		if (largest < array[i])
-			largest = array[i];
+		if (maxt < array[i])
+			max = array[i];
 	}
  
-        printf("\n largest element present in the given array is : %d", largest);
+        printf("\n largest element present in the given array is : %d", max);
  
         return 0;
  
