@@ -8,6 +8,6 @@ int main()
     printf("Enter the Power Value B : ");
     scanf("%d", &b);
     c= pow(i,b) ;
-    printf("The Value is %d \n", c);
+    printf("The Value is %d\n", c);
     return 1;
 }
