@@ -2,8 +2,8 @@
 int main()
 {
 int a,b;
-printf("number of times\n");
-scanf("%d\n", &a);
+printf("Number of times : ");
+scanf("%d", &a);
 for(b=1;b<=a;b++)
 {
     printf("Hello\n");
