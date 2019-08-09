@@ -1,15 +1,18 @@
 #include<stdio.h>
+#include<math.h>
+#include<conio.h>
 int main()
 {
-int a,b;
-printf("enter a number\n");
-scanf("%d\n", &a);
-b = 5;
-if((a/b)==0)
-
-    printf("Odd");
-else 
+int b;
+printf("enter a number : ");
+scanf("%d",&b);
+if((b%2)==0)
+{
     printf("Even");
-
+}
+else 
+{
+    printf("Odd");
+}
 return 0;
 }
