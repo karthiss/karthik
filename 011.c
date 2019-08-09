@@ -3,53 +3,53 @@ int main()
 {
 int a,b,c,d,e,f,g,h;
 printf("Enter the value : \n");
-scanf("%d\n", &a);
+scanf("%d",&a);
 printf("Enter the value : \n");
-scanf("%d\n", &b);
+scanf("%d",&b);
 printf("Enter the value : \n");
-scanf("%d\n", &c);
+scanf("%d",&c);
 printf("Enter the value : \n");
-scanf("%d\n", &d);
+scanf("%d",&d);
 printf("Enter the value : \n");
-scanf("%d\n", &e);
+scanf("%d",&e);
 printf("Enter the value : \n");
-scanf("%d\n", &f);
+scanf("%d",&f);
 printf("Enter the value : \n");
-scanf("%d\n", &g);
+scanf("%d",&g);
 printf("Enter the value : \n");
-scanf("%d\n", &h);
+scanf("%d", &h);
 
-if ((a>b)||(a>c)||(a>d)||(a>e)||(a>f)||(a>g)||(a>h))
+if ((a>b)&&(a>c)&&(a>d)&&(a>e)&&(a>f)&&(a>g)&&(a>h))
 
-    printf(" %d \n ", a);
+    printf("\nThe biggest value %d \n ", a);
 
-else if ((b>c)||(b>d)||(b>e)||(b>f)||(b>g)||(b>h))
+else if ((b>c)&&(b>d)&&(b>e)&&(b>f)&&(b>g)&&(b>h))
 
-    printf(" %d \n ", b);
+    printf("The biggest value %d \n ", b);
     
-else if ((c>d)||(c>e)||(c>f)||(c>g)||(c>h))
+else if ((c>d)&&(c>e)&&(c>f)&&(c>g)&&(c>h))
 
-    printf(" %d \n ", c);
+    printf("The biggest value %d \n ", c);
     
-else if ((d>e)||(d>f)||(d>g)||(d>h))
+else if ((d>e)&&(d>f)&&(d>g)&&(d>h))
 
-    printf(" %d \n ", d);
+    printf("The biggest value %d \n ", d);
     
-else if ((e>f)||(e>g)||(e>h))
+else if ((e>f)&&(e>g)&&(e>h))
 
-    printf(" %d \n ", e);
+    printf("The biggest value %d \n ", e);
     
-else if ((f>g)||(f>h))
+else if ((f>g)&&(f>h))
 
-    printf(" %d \n ", f);
+    printf("The biggest value %d \n ", f);
     
 else if (g>h)
 
-    printf(" %d \n ", g);
+    printf("The biggest value %d \n ", g);
     
 else
 
-    printf(" %d \n ", h);
+    printf("The biggest value %d \n ", h);
     
 return 0;
 
