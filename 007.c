@@ -2,13 +2,11 @@
 int main()
 {
     int a;
-    printf("enter a year\n");
-    scanf("%d\n", &a);
+    printf("Enter a year :");
+    scanf("%d", &a);
 if(a%4 == 0)
-
-        printf("Yes\n"); 
+        printf("\nYes %d is leap year",a); 
     else
-        printf("No\n");
-
+        printf("\nNo %d is not a leap year", a);
 return 0;
 }
