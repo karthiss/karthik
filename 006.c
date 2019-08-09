@@ -1,25 +1,25 @@
 #include<stdio.h>
-int main()
+void main()
 {
     int a,b,c;
-    printf("enter the A value\n");
-    scanf("%d\n", &a);
-    printf("enter the B value\n");
-    scanf("%d\n", &b);
-    printf("enter the C value\n");
-    scanf("%d\n", &c);
+    printf("enter the A value : ");
+    scanf("%d", &a);
+    printf("\nenter the B value : ");
+    scanf("%d", &b);
+    printf("\nenter the C value : ");
+    scanf("%d", &c);
     
-if ((a>b)||(a>c))
+if ((a>b)&&(a>c))
     
-        printf("The bigger value is %d \n", a);
+        printf("The bigger value is %d", a);
         
 else if(b>c)
 
-        printf("The bigger value is %d \n", b);
+        printf("The bigger value is %d", b);
 
 else
 
-        printf("The bigger value is %d \n", c);
+        printf("\nThe bigger value is %d", c);
     
-    return 0;
+    getch ();
 }
