@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main()
+{
+    int i=0,j;
+    float R[10],d=42.195,temp1;
+    int length= sizeof(R)/sizeof(R[0]);
+    char ch;
+    printf("Enter Distance covered by racers in Marathon : Press q to Quit : \n");
+//to get input
+for(i=0;i<100;)
+{
+    scanf("%f", &R[i]);
+   if(R[i]==ch) 
+   {
+       break;
+    }
+      else
+      {
+          i++;
+      }
+}
+// for sortin accending order
+for (int i = 0; i < length; i++) 
+{     
+        for (int j = i+1; j < length; j++) 
+        {     
+           if(R[i] > R[j]) 
+           {    
+               temp1 = R[i];    
+               R[i] = R[j];    
+               R[j] = temp1;    
+           }     
+        }     
+    }       
+//to print out put
+for(j=0;j<length;j++)
+{
+   printf("%0.1f \n", R[j]);
+}
+   return 0;
+}
